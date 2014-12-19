@@ -29,4 +29,21 @@ int main(int argc, string argv[])
   int x = atoi(argv[1])
   printf("%d\n", x);
   return 0
+//^^^the return 0 is a normal way of demonstrating program success
+
+
+//first for loop is looking at each word
+  for (int i = 0; i < argc; i++ )
+  {
+    //after it finds the frist command line argument
+    //it declares n as length of that word
+    //and loops through each character within that word
+    //cause argv is an array of string, it looks at the first
+    //array, and then finds the individual characters that makeup
+    //the i (whole word)
+      for (int j = 0, n = strlen(argv[i]); j < n; j++)
+      {
+        printf("%c\n"), argv[i][j]);
+      }
+  }
 }
