@@ -24,3 +24,4 @@ int main()
 
    return 0;
 }
+//// Data tips for hw 4 to come!
